@@ -44,22 +44,21 @@ public class Assignment1 {
 		System.out.println(bol);//8
 		System.out.println("-----------------");
 		
-		double p=10.50;
-		double q=2.5;
+		double p=10.50,q=2.5;
 		double r=p+q;
 		double s=p-q;
 		double t=p*q;
 		double u=p/q;
-		System.out.println("Sum of two numbers are: "+ r); //8
-		System.out.println("Difference of two numbers is : "+ s); //8
-		System.out.println("Product of two numbers are:" + t); //8
-		System.out.println("Quotient of two number is: "+ u); //8
-		System.out.println("-----------------------------"); //8
+		System.out.println("Sum of two numbers are: "+ r); //9
+		System.out.println("Difference of two numbers is : "+ s); //9
+		System.out.println("Product of two numbers are:" + t); //9
+		System.out.println("Quotient of two number is: "+ u); //9
+		System.out.println("-----------------------------"); //9
 		
 		int length=10;
 		int width=5;
 		int area=length*width;
-		System.out.println("Area of rectange is: "+ area); //9
+		System.out.println("Area of rectange is: "+ area); //10
 		System.out.println("-----------------------------");
 		
 		int e=10;
@@ -69,8 +68,8 @@ public class Assignment1 {
 		int g=e;
 		e=f;
 		f=g;
-		System.out.println("After Swapping value for e:" + e);
-		System.out.println("After Swapping value for f:" + f);
+		System.out.println("After Swapping value for e:" + e);//11
+		System.out.println("After Swapping value for f:" + f);//11
 		System.out.println("-----------------------------");
 		
 		int e1=20;
@@ -80,11 +79,13 @@ public class Assignment1 {
 		e1=e1+f1;
 		f1=e1-f1;
 		e1=e1-f1;
-		System.out.println("After Swapping value for e1:" + e1);
-		System.out.println("After Swapping value for f1:" + f1);
+		System.out.println("After Swapping value for e1:" + e1);//12
+		System.out.println("After Swapping value for f1:" + f1);//12
 		System.out.println("-----------------------------");
 		
-		
+		int k1=10;
+		String l1="Practice Java";
+		System.out.println("Concatenation is: " + k1+" "+l1);
 		
 
 	}

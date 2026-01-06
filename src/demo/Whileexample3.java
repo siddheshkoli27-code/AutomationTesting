@@ -8,7 +8,7 @@ public class Whileexample3 {
 		while(i<=10)  
 		{
 			int table=6*i;
-			System.out.println("6 *"+  "= " +table);
+			System.out.println("6 * "+ i+ "= " +table);
 			i++;
 		}
 	
