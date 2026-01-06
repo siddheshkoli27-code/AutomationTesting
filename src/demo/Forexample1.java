@@ -9,9 +9,6 @@ public class Forexample1 {
 		{	int table=5*i;
 			System.out.println(table);
 		}	
-
-
-
 	}
 
 }

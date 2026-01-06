@@ -37,9 +37,19 @@ public class Assignment2 {
 		System.out.println(a3>b3);//5
 		System.out.println("-------------"); 
 		
+		double num1=8.9,num2=8.9;
+		System.out.println(num1==num2);//6
+		System.out.println("-------------"); 
+		
+		int num3=-3;
+		System.out.println(num3<0 || num>10);
+		System.out.println("-------------------------");
 		int p=10;
 		++p;
 		System.out.println(p);
+		System.out.println("-------------");
+		
+		
 
 	}
 
