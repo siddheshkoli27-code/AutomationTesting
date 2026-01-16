@@ -3,7 +3,7 @@ package Person;
 public class Manager extends Employee {
 	
 	public void manage() {
-		System.out.println("This is a manager");
+		System.out.println(name+": "+"This is a manager");
 	}
 
 }
